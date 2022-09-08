@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practice.css">
+    <title>flexbox</title>
+
+    <!----
+<style>
+    
+
+*{box-sizing:border-box;
+}
+
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    font-size:40px;
+    text-align:center;
+
+}
+
+
+.flex-item-left{
+    background:blue;
+    padding:10px;
+    flex:90%
+}
+
+
+
+
+
+.flex-item-right{
+    background:green;
+    padding:10px;
+    flex:10%
+}
+
+
+/**respnsive coding of the site**/
+
+@media(max-width:800px){
+   .flex-item-left{
+       flex:100%;
+   }
+
+   .flex-item-right{
+       flex:10%;
+   }
+}
+
+</style>
+
+</head>
+<body>
+   <h1>RESPonsive flexbox</h1>
+    <p>they said the flex direction row tacks the flex tems horizontally from left to right</p>
+
+    <p>the fle direction column stacks the flex item vertically from top to bottom</p>
+
+    <p><b>resize the browser window to see thst the direction changes when the screen size is 800px wide or smaller</b></p>
+
+
+<div class="flex-container">
+<div class="flex-item-left">1</div>
+<div class="flex-item-right">2</div>
+</div>
+
+<!--image grid-->
+<!---
+<div class="header">
+    <h1>responsie image gallery</h1>
+    <p>Resize the browser window to see the respnsive effect</p>
+</div>
+
+<!---image-->
+
+<div>
+<header>
+
+<h1>JUNGLE FLAMES</h1>
+
+</header>
+
+
+<nav>
+
+<ul>
+    <li><a href="#">cat family</a></li>
+    <li><a href="#">wild pets</a></li>
+    <li><a href="#">lion family</a></li>
+    <li><a href="#">zoo portals</a></li>
+    </ul>
+
+    <a href=""><button> TICKETS</button></a>
+</nav>
+
+</div>
+
+<div class="row">
+
+ <div class="column">
+     <img src="https://a-z-animals.com/media/tiger_laying_hero_background.jpg" alt="">
+     <img src="https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+     <img src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?cs=srgb&dl=pexels-pixabay-47547.jpg&fm=jpg" alt="">
+     <img src="https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2lsZCUyMGFuaW1hbHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
+     <img src="https://www.thesprucepets.com/thmb/FOLwbR72UrUpF9sZ45RYKzgO8dg=/3072x2034/filters:fill(auto,1)/yellow-tang-fish-508304367-5c3d2790c9e77c000117dcf2.jpg" alt="">
+ </div>   
+
+
+ <div class="column">
+    <img src="https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2lsZCUyMGFuaW1hbHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
+    <img src="https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+    <img src="https://www.thesprucepets.com/thmb/FOLwbR72UrUpF9sZ45RYKzgO8dg=/3072x2034/filters:fill(auto,1)/yellow-tang-fish-508304367-5c3d2790c9e77c000117dcf2.jpg"" alt="">
+    <img src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?cs=srgb&dl=pexels-pixabay-47547.jpg&fm=jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2lsZCUyMGFuaW1hbHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
+</div>  
+
+
+<div class="column">
+    <img src="https://a-z-animals.com/media/tiger_laying_hero_background.jpg" alt="">
+    <img src="https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+    <img src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?cs=srgb&dl=pexels-pixabay-47547.jpg&fm=jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1598755257130-c2aaca1f061c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2lsZCUyMGFuaW1hbHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="">
+    <img src="https://www.thesprucepets.com/thmb/FOLwbR72UrUpF9sZ45RYKzgO8dg=/3072x2034/filters:fill(auto,1)/yellow-tang-fish-508304367-5c3d2790c9e77c000117dcf2.jpg" alt="">
+    
+</div>  
+
+</div>
+
+
+</body>
+</html>
