@@ -1,0 +1,106 @@
+
+*{box-sizing: border-box;}
+
+
+
+header{
+
+    background:black ;
+    height:200px;
+    color:rgb(15, 4, 4);
+    display: flex;
+    justify-content: space-around;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.3rem;
+    font-size: 1.9rem;
+    text-shadow: 4px 5px 5px yellow;
+    
+}
+
+header h1::first-letter{
+    color:yellow;
+    font-size: 5.1rem;
+}
+
+nav {
+    background-color: rgb(17, 6, 6);
+    color: whitesmoke;
+    display: flex;
+    justify-content:space-around ;
+    border-top: 3px solid white;
+
+    align-items:center;
+    overflow: scroll;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+
+    text-align: center;
+    justify-items: center;
+    margin-left:200px;
+
+}
+
+nav ul li{
+    display: flex;
+    padding-left: 50px;
+    font-size: 1.5rem;
+    align-items:center;
+    text-decoration: none;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    text-decoration: none;
+    white-space: nowrap;
+    color:white;
+
+}
+
+
+
+nav ul li a:hover{
+    background:rgb(55, 47, 33);
+    color:black;
+    padding:1px;
+}
+
+
+
+
+nav a button{
+    background-color: white;
+    color:black;
+    padding: 1rem;
+    border-radius:2rem;
+    margin-left: 20px;
+    box-shadow: 0px  20px 30px white,
+    0px  0px 30px white,
+    0px  0px 30px white,
+0px  0px 30px white,
+    0px  0px 30px white;
+
+}
+
+
+
+
+
+
+.row .column{
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+
+.row .column img{
+    height:300px;
+    width:300px;
+    flex:2 2 200px;
+    
+}
